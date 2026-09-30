@@ -1,6 +1,6 @@
 # Tienda API
 
-![CI](https://github.com/PedroFlores199/Tienda_API/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/PedroFlores199/Tienda-API/actions/workflows/ci.yml/badge.svg)
 
 Esta es una API para gestionar clientes, productos, pedidos y facturación de una pequeña tienda online. 
 
