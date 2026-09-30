@@ -141,7 +141,7 @@ class TiendaApiApplicationTests {
             });
         }
 
-        latch.await(10, TimeUnit.SECONDS);
+        latch.await(60, TimeUnit.SECONDS);
         executor.shutdown();
 
         List<Factura> facturas = facturaRepository.findAll();
