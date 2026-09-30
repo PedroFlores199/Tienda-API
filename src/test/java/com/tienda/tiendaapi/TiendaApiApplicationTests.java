@@ -41,8 +41,8 @@ class TiendaApiApplicationTests {
 
     @BeforeEach
     void setup() {
-        pedidoRepository.deleteAll();
         facturaRepository.deleteAll();
+        pedidoRepository.deleteAll();
         productoRepository.deleteAll();
         clienteRepository.deleteAll();
 
